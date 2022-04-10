@@ -1,0 +1,54 @@
+<%- include("../header") -%>
+
+<p class="px-4 mt-4"><a  class="btn btn-success" href="/">Home</a></p>
+<h1 class="text-center fw-bold">Messages</h1>
+<% data.map(item => { %>
+		<div style="border-radius: .5rem; margin: 1rem 2rem;">
+		        <h3 class="card bg-secondary" style="padding: .7rem"> 
+		        	
+		       			<%= item.message %>		
+		       	</h3>
+               
+            </div>
+
+
+<% }) %>
+
+<script src="/static/main2.js"></script>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

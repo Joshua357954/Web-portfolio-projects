@@ -1,0 +1,44 @@
+<%- include("../header") -%>
+
+<title>Login</title>
+
+<% if (message){ %>
+  
+<div class="alert alert-primary fade show alt-box">
+    <p><%= message %> </p>
+</div>
+
+<% } %>
+
+
+<h2 class="text-center mt-5 fancy-1"> Login 🌠</h2>
+
+ 
+<form  action="/login"  method="POST" 
+class="form-control d-flex flex-column  justify-content-around align-items-center py-4 gap-sm-3 mt-4 bd-none">
+	
+<div class="form-floating mb-3">
+    <input type="name" class="form-control" name="name" id="name"
+     placeholder="Username ">
+    <label for="floatingInput">Username </label>
+</div>
+
+<div class="form-floating mb-3">
+    <input type="password" class="form-control" id="password"
+    name="password" placeholder="Password">
+    <label for="floatingInput">Password</label>
+</div>
+
+<button class="btn btn-info text-bold  pad-x-lg" type="submit">Login</button>
+
+</form>
+
+
+<p class="px-3">Don't have an account <a class="text-primary" 
+	href="/signup">Register</a> </p>
+
+
+</body>
+</html>
+
+

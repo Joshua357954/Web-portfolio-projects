@@ -1,0 +1,50 @@
+<%- include("header") -%>
+<style>
+body{
+	padding: 0 .7rem;
+}	
+</style>
+<p class="px-4 mt-4"><a  class="btn btn-success" href="/">Home</a></p>
+
+<% if (user) { %>
+	
+	<h2 class="text-center">Hello , <%= user.name %></h2>
+	
+	<h3 class="px-4">Welcome to check-me</h3>
+
+	<strong class="px-4  text-primary">https/www.check-me.xyz/u/<%= user.name %><strong>
+
+	<div class="px-4 mt-4 d-flex flex-column gap-3">
+		<a class="btn btn-warning" href="/messages">View Messages</a>
+		<p class="text-center"><a href="/privacy&policy" class="text-muted ">
+		privacy and policy </a></p>
+	</div>
+
+<!-- 	<div class="container">
+		<div>
+			<a href="/" class="item">1</a>
+			<a href="/u/<%= user ? user.name : "" %>" class="item Cactive">2</a>
+			<a href="/messages" class="item">3</a>
+		</div>
+	</div>
+ -->
+
+<% } else { %>
+	
+	<h2 class="text-danger text-center">Send a secret message to 
+	<span> <%= name %></span></h2>
+<form action="\u\<%= name %>" method="POST">
+	<div class="input-group" >
+		<textarea required class="form-control px-2" rows="5" cols="4"
+		aria-label="With textarea" id="message" name="message"></textarea>
+	</div>
+	<button class="btn btn-warning mx-4 mt-4 px-3" type="submit">Send
+	</button>
+
+</form>	
+
+<% } %>
+
+
+</body>
+</html>

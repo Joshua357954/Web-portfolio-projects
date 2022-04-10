@@ -1,0 +1,328 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"pa",
+				"placeholder\tAttr"
+			],
+			[
+				"add",
+				"addEventListener"
+			],
+			[
+				"t",
+				"trackProgress"
+			],
+			[
+				"u",
+				"uppercase\ttext-transform"
+			],
+			[
+				"get",
+				"getItem"
+			],
+			[
+				"ps",
+				"position\tproperty"
+			],
+			[
+				"background-c",
+				"background-color\tproperty"
+			],
+			[
+				"max",
+				"max-width\tproperty"
+			],
+			[
+				"fl",
+				"flex-direction\tproperty"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/JAY/Desktop/Small-html-project/Password-manager/style.css",
+		"/C/Users/JAY/Desktop/Small-html-project/Footer learn/style.css",
+		"/C/Users/JAY/Desktop/Small-html-project/Footer learn/index.html",
+		"/C/Users/JAY/AppData/Roaming/Sublime Text 3/Packages/AFileIcon-3.15.15/plugin.py",
+		"/C/Users/JAY/Desktop/my-node-projects/check-up-app/views/home.ejs",
+		"/C/Users/JAY/Desktop/my-node-projects/check-up-app/views/user.ejs",
+		"/C/Users/JAY/Desktop/Small-html-project/canvas/index.html",
+		"/C/Users/JAY/Desktop/css/font-awesome.css",
+		"/C/Users/JAY/Desktop/100 days of code projects/Day 23/main.py",
+		"/C/Users/JAY/Desktop/my-node-projects/check-up-app/static/style.css",
+		"/C/Users/JAY/Desktop/my-node-projects/check-up-app/views/regular/r_message.ejs",
+		"/C/Users/JAY/Desktop/my-node-projects/check-up-app/server.js",
+		"/C/Users/JAY/Desktop/100 days of code projects/Day 25/main.py",
+		"/C/Users/JAY/Desktop/100 days of code projects/Day 25/Rabbit Census/main.py",
+		"/C/Users/JAY/Desktop/100 days of code projects/Day 25/States Project/main.py",
+		"/C/Users/JAY/Desktop/100 days of code projects/Day 17/main.py",
+		"/C/Users/JAY/Desktop/100 days of code projects/Day 20/main.py",
+		"/C/Users/JAY/Desktop/100 days of code projects/Day 22/main.py",
+		"/C/Users/JAY/Desktop/100 days of code projects/Day 26/main.py",
+		"/C/Users/JAY/Desktop/100 days of code projects/Day 26/Excrecises.py",
+		"/C/Users/JAY/Desktop/100 days of code projects/Day 27/main.py",
+		"/C/Users/JAY/Desktop/100 days of code projects/Day 28/DaysCountDown/main.py",
+		"/C/Users/JAY/Desktop/100 days of code projects/Day 29 & 30/main.py",
+		"/C/Users/JAY/Desktop/100 days of code projects/Day 31/main.py",
+		"/C/Users/JAY/Desktop/100 days of code projects/Day 33/main.py",
+		"/C/Users/JAY/Desktop/100 days of code projects/Day 33/Quize/q_brain.py",
+		"/C/Users/JAY/Desktop/100 days of code projects/Day 34/main.py",
+		"/C/Users/JAY/Desktop/Small-html-project/canvas/style.css",
+		"/C/Users/JAY/Desktop/100 days of code projects/Day 34/Quize/GUI.py",
+		"/C/Users/JAY/Desktop/my-node-projects/my-app-two/package.json",
+		"/C/Users/JAY/Desktop/my-node-projects/my-app-one/auth/views/signup.ejs",
+		"/C/Users/JAY/Desktop/my-node-projects/my-app-one/auth/index.html",
+		"/C/Users/JAY/Desktop/Programming/Kivy_Projects/Random Pix Game/__pycache__/one.cpython-37.pyc",
+		"/C/Users/JAY/Desktop/Programming/Kivy_Projects/My_grilla/gig.kv",
+		"/C/Users/JAY/Desktop/Programming/Kivy_Projects/My_grilla/D_GRILLA.py",
+		"/C/Users/JAY/Desktop/Programming/Kivy_Projects/E-Wallet-app/e.py",
+		"/C/Users/JAY/Desktop/Programming/Kivy_Projects/clean-code/main.py",
+		"/C/Users/JAY/Desktop/Programming/Kivy_Projects/Facebook_story_saver/fbss.py",
+		"/C/Users/JAY/Desktop/Programming/Kivy_Projects/Intensive_kivymd/snack.py",
+		"/C/Users/JAY/Desktop/Programming/Kivy_Projects/My Insta clone/one.py",
+		"/C/Users/JAY/Desktop/Programming/Kivy_Projects/My Insta clone/uix/post_card.kv",
+		"/C/Users/JAY/Desktop/Programming/Kivy_Projects/My Insta clone/uix/ProfileIcon.kv",
+		"/C/Users/JAY/Desktop/Programming/Kivy_Projects/My Insta clone/uix/HomeIcon.kv",
+		"/C/Users/JAY/Desktop/Programming/Kivy_Projects/My Insta clone/1.kv",
+		"/C/Users/JAY/Desktop/Programming/Kivy_Projects/My Insta clone/main.py",
+		"/C/Users/JAY/Desktop/Programming/Kivy_Projects/YT/TextFields.py",
+		"/C/Users/JAY/Desktop/Programming/Kivy_Projects/YT/ytk.py",
+		"/C/Users/JAY/Desktop/liby_sign_up.py",
+		"/C/Users/JAY/Desktop/Small-html-project/main.py",
+		"/C/Users/JAY/Desktop/node/views/index.ejs",
+		"/C/Users/JAY/Desktop/node/static/style.css",
+		"/C/Users/JAY/Desktop/node/views/articles/new.ejs",
+		"/C/Users/JAY/Desktop/node/package-lock.json",
+		"/C/Users/JAY/Desktop/viceo-art-board/js/Modules/selector.js",
+		"/C/Users/JAY/Desktop/viceo-art-board/js/main.js",
+		"/C/Users/JAY/Desktop/viceo-art-board/js/Modules/canvas.js",
+		"/C/Users/JAY/Desktop/viceo-art-board/js/Modules/utilities.js",
+		"/C/Users/JAY/Desktop/viceo-art-board/js/smiley.js",
+		"/C/Users/JAY/Desktop/node/views/articles/new.html",
+		"/C/Users/JAY/Desktop/node/routes/article.js",
+		"/C/Users/JAY/Desktop/node/node_modules/braces/lib/stringify.js",
+		"/C/Users/JAY/Desktop/node/node_modules/@szmarczak/http-timer/source/index.js",
+		"/C/Users/JAY/Desktop/node/views/footer.ejs",
+		"/C/Users/JAY/AppData/Roaming/Sublime Text 3/Packages/User/ejs.sublime-build",
+		"/C/Users/JAY/Desktop/node/views/footer.html",
+		"/C/Users/JAY/Desktop/node/views/index.html",
+		"/C/Users/JAY/Desktop/node/views/static/style.css",
+		"/C/Users/JAY/Desktop/node/views/header.ejs",
+		"/C/Users/JAY/Desktop/node/static/main.js",
+		"/C/Users/JAY/Desktop/node/views/static/main.js",
+		"/C/Users/JAY/Desktop/node/package.json",
+		"/C/Users/JAY/Desktop/node/template/index.html",
+		"/C/Users/JAY/Desktop/Small-html-project/Search-bar/index.html",
+		"/C/Users/JAY/Desktop/Small-html-project/Search-bar/style.css",
+		"/C/Users/JAY/Desktop/Small-html-project/Search-bar/main.js",
+		"/C/Users/JAY/Desktop/Small-html-project/Forms/main.js",
+		"/C/Users/JAY/Desktop/Small-html-project/Forms/index.html",
+		"/C/Users/JAY/Desktop/Small-html-project/Forms/style.css",
+		"/C/Users/JAY/Desktop/Small-html-project/Forms/main.html",
+		"/C/Users/JAY/Desktop/Small-html-project/Forms/main2.js",
+		"/C/Users/JAY/Desktop/Small-html-project/canvas/main.js",
+		"/C/Many_Downloads_Windows/Users/joshuaboy/Desktop/Application Packages/music_p/mus.py",
+		"/C/Users/JAY/Desktop/Small-html-project/pomodoro/index.html",
+		"/C/Users/JAY/Desktop/Small-html-project/pomodoro/main.js",
+		"/C/Many_Downloads_Windows/Users/joshuaboy/Desktop/Application Packages/CREATE GUI/Tk_atm2.py",
+		"/C/Users/JAY/Desktop/Programming/Learn-php/php-files/main.php",
+		"/C/Users/JAY/Desktop/Programming/Learn-php/php-files/api.php",
+		"/C/Users/JAY/Desktop/Programming/Learn-php/php-files/index.html",
+		"/C/Many_Downloads_Windows/Users/joshuaboy/Downloads/D_GRILLA.py",
+		"/C/Many_Downloads_Windows/Users/joshuaboy/Desktop/Application Packages/music_p/labalaba.py",
+		"/C/Many_Downloads_Windows/Users/joshuaboy/Desktop/Application Packages/music_p/logantiode.py",
+		"/C/Many_Downloads_Windows/Users/joshuaboy/Desktop/Application Packages/CREATE GUI/golo.py",
+		"/C/Many_Downloads_Windows/Users/joshuaboy/Desktop/Application Packages/CREATE GUI/ATM.py",
+		"/C/Many_Downloads_Windows/Users/joshuaboy/Desktop/NotePad.exe/notepad.py",
+		"/C/Users/JAY/AppData/Local/Temp/Temp1_instagram-clone-main.zip/instagram-clone-main/Instagram/main.py",
+		"/C/Many_Downloads_Windows/Users/joshuaboy/Desktop/Application Packages/calc.py",
+		"/C/xampp/htdocs/learn-php/one.php",
+		"/c/xampp/new folder/folder/apache/conf/httpd.conf",
+		"/c/xampp/new",
+		"/c/xampp/new folder/folder/php/php.ini",
+		"/c/xampp/new folder/folder/mysql/bin/my.ini",
+		"/C/Users/JAY/Desktop/Small-html-project/pomodoro/style.css",
+		"/C/Users/JAY/Desktop/100 days of code projects/Day 37/main.py",
+		"/C/Users/JAY/Desktop/100 days of code projects/Day 35/main.py",
+		"/C/Users/JAY/Desktop/100 days of code projects/Day 38/main.py",
+		"/C/Users/JAY/Desktop/100 days of code projects/Day 28/main.py",
+		"/C/Users/JAY/Desktop/100 days of code projects/Day 38/next.py",
+		"/C/Users/JAY/Desktop/100 days of code projects/Day 36/main.py",
+		"/C/Users/JAY/Desktop/Small-html-project/svg-work/main.html",
+		"/C/Users/JAY/Desktop/Small-html-project/svg-work/style.css",
+		"/C/Users/JAY/Desktop/Small-html-project/svg-work/make.js",
+		"/C/Users/JAY/Desktop/Small-html-project/svg-work/index.html",
+		"/C/Users/JAY/Pictures/make.go",
+		"/C/Users/JAY/Pictures/main.js",
+		"/C/Users/JAY/Pictures/sam.php",
+		"/C/Users/JAY/Desktop/Small-html-project/Calculator/index.html",
+		"/C/Users/JAY/Desktop/Small-html-project/Calculator/style.css",
+		"/C/Users/JAY/Desktop/Small-html-project/Password-manager/index.html",
+		"/C/Users/JAY/Desktop/Small-html-project/Password-manager/main.js",
+		"/C/Users/JAY/Desktop/Small-html-project/Password-manager/second.js",
+		"/C/Users/JAY/Desktop/Small-html-project/circular-progress/kik.js",
+		"/C/Users/JAY/Desktop/Small-html-project/circular-progress/style.css",
+		"/C/Users/JAY/Downloads/6668a1f6986742109c00a581ce704605-f6c882b6ae18bde42dcf6fdb751aae93495a2275/mak/index.html",
+		"/C/Users/JAY/Desktop/Programming/Reactt/index.html",
+		"/C/Users/JAY/Desktop/Small-html-project/circular-progress/index.html",
+		"/C/Users/JAY/Desktop/Small-html-project/to-do-list-app/main.js",
+		"/C/Users/JAY/Desktop/Small-html-project/card/card3.html",
+		"/C/Users/JAY/Desktop/Small-html-project/ticket/style.css"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 102.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 41.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/Python/Python.sublime-build",
+	"project": "main.sublime-project",
+	"replace":
+	{
+		"height": 71.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 321.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

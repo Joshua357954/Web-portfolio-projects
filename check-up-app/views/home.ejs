@@ -1,0 +1,125 @@
+<%- include("header") -%>
+<link rel="stylesheet" type="text/css" href="/static/style.css">
+
+<style>
+
+.boss{
+	color:white;
+	font-family: cursive;
+}
+
+.magen{
+	margin:0 30%; 
+}
+
+body{
+	height: 90vh;
+}
+
+</style>
+
+ 
+<link href="cover.css" rel="stylesheet">
+</head>
+ <nav class="navbar navbar-expand navbar-dark bg-dark" aria-label="Second navbar example">
+    <div class="container-fluid">
+    <!-- <a class="navbar-brand f-20" href="#"> -->
+      <h1 class="boss bg-dark p-2" >Check Up</h1>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample02" aria-controls="navbarsExample02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+  </nav>
+   
+<div class="fulls d-flex w-100 h-100 p-3 mx-auto flex-column
+ text-center text-white bg-dark ">
+
+  <main class="px-3 ">
+
+<% if (user) { %>
+
+    <h1>Hello , <%= user.name %> </h1>
+    <p class="lead">Welcome to check up , where you get the best of sending anonymous messages .</p>
+    <div class="lead d-flex  flex-column align-center gap-2 magen">
+
+
+      <a href="/u/<%= user.name %>" class="btn btn-lg btn-primary fw-bold border-white bg-white text-dark">Profile</a>
+
+      <a  href="/logout" class="btn btn-lg btn-secondary fw-bold border-white bg-primary">Logout</a>
+
+<% } else { %>
+	
+    <h1>Anonymous messages</h1>
+
+    <p class="lead">Sending anonymous messages just got easier with check up , we've got you covered.</p>
+
+    <div class="lead d-flex  flex-column align-center gap-2 magen">
+
+	<a href="/signup" class="btn btn-lg btn-info fw-bold border-white bg-white text-dark">Register</a>
+
+      <a href="/login" class="btn btn-lg btn-primary fw-bold border-white bg-primary">Login</a>
+
+<% } %>
+
+    </div>
+  </main>
+
+  <footer class="mt-auto text-white-50">
+    <p>Check up &copy 2022</p>
+  </footer>
+</div>
+
+
+
+<!-- 
+
+<h2 class="text-center text-uppercase">
+Welcome to check up app , <%= user ? user.name: "Anonymus" %></h2>
+
+
+<% if (user) { %>
+
+	
+	<a class="btn btn-outline-secondary mx-5" href="/u/<%= user.name %>">Go to User Page</a>
+
+	<a  class="btn btn-danger logout-btn" href="/logout">Log out</a>
+
+	</div>
+
+<% } else { %>
+	<div>
+
+	<a class="btn btn-info" href="/signup">Register</a>
+
+	<a  class="btn btn-primary logout-btn" href="/login">Log In</a>
+
+	</div>
+<% } %>
+
+
+
+<div class="s-box">
+
+	<input id="input" onkeyup="runs(value)" placeholder="Search" value="" class="mt-5 px-2 py-1 rounded-3">
+
+	<ul class="search-box">
+		
+	</ul>
+
+</div>
+ -->
+<!-- <div class="container">
+	<div>
+		<a href="/" class="item Cactive">1</a>
+		<a href="/u/<%= user ? user.name : "" %>" class="item">2</a>
+		<a href="/messages" class="item">3</a>
+
+	</div>
+</div> -->
+
+</body>
+
+<script src="/static/main2.js"></script>
+
+<script src="/static/main.js"></script>
+</body>
+</html>

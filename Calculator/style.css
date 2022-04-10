@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300;400&family=Roboto:wght@300&display=swap');
+
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+	font-family: "Dongle",sans-serif;
+
+}
+
+
+body{
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color:#f2f2f2;
+}
+
+
+.main{
+	position: relative;
+	top:70px;
+	padding:5px;
+	background-color: #b9e6d3;
+	border-radius: 10px;
+	max-height: 400px;
+}
+
+.container{
+	display: grid;
+	grid-template-columns: repeat(4,1fr);
+
+}
+
+.output-box{
+	height: 50px;
+	padding: 10px;
+	margin:5px;
+	background-color: white;
+	border-radius: 3px;
+	border-color: black;
+}
+#pee{
+	text-align: right;
+	padding: 5px;
+	font-family: "Roboto", monospace;
+	font-size: 20px;
+	font-weight: 700;
+	border: none;
+	border-color: white;
+}
+
+
+#pee:focus{
+	outline: none;
+}
+
+.btn{
+	width:65px;
+	height:60px;
+	background-color: white;
+	margin: 0 2px 4px;
+	cursor: pointer;
+	border-radius: 5px;
+	display: flex;
+	font-size: 20px;
+	justify-content: center;
+	align-items: center;
+	user-select: none;
+}
+
+.btn:hover{
+	opacity: .4;
+}
+.equal-btn{
+	font-size: 50px;
+	font-weight: 100;
+	background-color: #f23a3a;
+}
+
+.clear-btn{
+	background-color: #FCF5B0;
+}
+
+.delete-btn{
+	background-color: #e8984a;
+}
+
+
+
+
+
+
+
+
+
+

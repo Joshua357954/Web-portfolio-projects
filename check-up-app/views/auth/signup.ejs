@@ -1,0 +1,73 @@
+<%- include("../header") -%>
+
+<title>Signup</title>
+<% if (message){ %>
+  
+<div class="alert alert-primary alert-dismissible fade show" role="alert">
+    <p> This User alerady exists  <h2 class="text-bold"><%= message %> </p></h2>
+    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+</div>
+
+<% } %>
+
+<h2 class="text-center mt-5 fancy-1"> Register 😉</h2>
+
+ 
+<form  action="/signup"  method="POST" 
+class="form-control d-flex flex-column  justify-content-around align-items-center py-4 gap-sm-3 mt-4 bd-none">
+	
+<div class="form-floating mb-3">
+    <input required type="name" class="form-control" name="name" id="name"
+     placeholder="Username ">
+    <label for="floatingInput">Username </label>
+</div>
+
+<div class="form-floating mb-3">
+    <input required type="email" class="form-control" id="email" 
+    name="email" placeholder="Email">
+    <label for="floatingInput">Email address</label>
+</div>
+
+<div class="form-floating mb-3">
+    <input required type="password" class="form-control" id="password"
+    name="password" placeholder="Password">
+    <label for="floatingInput">Password</label>
+</div>
+
+<button class="btn btn-danger text-bold pad-x-lg" type="submit">Sign Up</button>
+
+</form>
+
+
+<p class="px-3">Already have an account <a class="text-primary" 
+	href="/login">Login</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- 
+        <form class=" d-flex flex-column justify-center align-center">
+          <div class="form-floating mb-3">
+            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+            <label for="floatingInput">Email address</label>
+          </div>
+          <div class="form-floating">
+            <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+            <label for="floatingPassword">Password</label>
+          </div>
+        </form> -->
+
+
+</body>
+</html>
+
+
